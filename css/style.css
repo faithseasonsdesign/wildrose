@@ -52,11 +52,12 @@ a{color:white;font-weight:bold}
 /*hero section coding start*/
 #hero-section-wrapper-1,#hero-section-wrapper-2,#hero-section-wrapper-3{
     height:60vh;
-    background-size:100% 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
     background-image:url("../images/4.jpg") !important;
 }
 #hero-section-wrapper-2{
-    background-image:url("../images/4.jpg") !important;
+    background-image:url("../images/7.jpg") !important;
 }
 #hero-section-wrapper-3{
     background-image:url("../images/5.jpg") !important;
@@ -121,9 +122,10 @@ a{color:white;font-weight:bold}
         font-size:18pt;
     }
     #hero-section-wrapper-1,#hero-section-wrapper-2,#hero-section-wrapper-3{
-        height:82vh;
+        height:90vh;
         background-size:100% 100%;
-        background-image:url("../images/1.jpg") !important;
+        background-repeat:no-repeat;
+        background-image:url("../images/4.jpg") !important;
     }
     #hero-section-wrapper-2{
         background-image:url("../images/2.jpg") !important;
@@ -132,7 +134,7 @@ a{color:white;font-weight:bold}
         background-image:url("../images/3.jpg") !important;
     }
     .hero-section-mask{
-        height:82vh;
+        height:90vh;
         background-color:rgb(14 6 6 / 90%);
     }
     .hero-section-caption-1{
