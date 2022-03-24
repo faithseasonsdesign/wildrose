@@ -1,0 +1,117 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration:none !important;
+    list-style:none !important;
+    font-family: arial;
+}
+a{color:white}
+
+
+/*navigation coding start*/
+#navigation-wrapper{
+    background-color:black;
+    color:white;
+}
+#navigation-inner-wrapper{
+    margin:0px auto;
+    max-width:1200px;
+    padding:20px 20px 20px 20px;
+    height:100px;
+    display:flex;
+    align-items:center;
+}
+#nav-items-wrapper, .nav-item{
+    float:left;
+    margin-left:30px;
+    font-size:14pt;
+}
+#logo-wrapper{
+    display:flex;
+    flex:1;
+}
+/*navigation coding ended*/
+
+
+/*hero section coding start*/
+#hero-section-wrapper{
+    height:80vh;
+    background:url('../images/bg2.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.hero-section-mask{
+    height:80vh;
+    background-color:rgb(14 6 6 / 90%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+#hero-section-subtitle{
+    margin-top:15px;
+}
+/*hero section coding ended*/
+
+
+
+/*media queries start*/
+@media screen and (max-width:769px){
+    #nav-items-wrapper{
+        position:absolute;
+        height:100%;
+        top:140px;
+        margin:0;
+        left:0;
+        right:0;
+        padding-top:50px;
+        background-color:black;
+        text-align:center;
+        display:none;
+    }
+    #nav-items-wrapper,.nav-item{
+        float:none;
+        margin-bottom:30px;
+    }
+
+
+    #hero-section-title{
+        font-size:30pt;
+    }
+    #hero-section-content{
+        padding:0px 20px 0px 20px;
+    }
+    
+}
+@media screen and (min-width:769px){
+    #sm-button-wrapper{
+        display:none;
+    }
+
+    #hero-section-title{
+        font-size:42pt;
+    }
+    #hero-section-subtitle{
+        font-size:18pt;
+    }
+}
+@media screen and (max-width:200px){
+    .logo{
+        height:80px;
+    }
+    #navigation-inner-wrapper{
+        flex-direction:column;
+        padding:0px 0px 50px 0px ;
+    }
+    #nav-items-wrapper,.nav-item{
+        font-size:10pt;
+    }
+    #hero-section-title{
+        font-size:17pt;
+    }
+    #hero-section-subtitle{
+        font-size:10pt;
+    }
+}
+/*media queries ended*/
